@@ -1,0 +1,144 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Body Styling */
+  body {
+    background-color: #87CEEB; /* Sky baby blue */
+    line-height: 1.6;
+    padding: 0 10px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* Header Styling */
+  header {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    color: #003366;
+    font-weight: bold;
+  }
+  
+  /* Navigation Styling */
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 0;
+    background-color: #003366;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Section Styling */
+  section {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    font-size: 1.8em;
+    color: #003366;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+  }
+  
+  section ul,
+  section p {
+    margin: 10px 0;
+  }
+  
+  section ul {
+    list-style: square inside;
+  }
+  
+  /* List Styling */
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  /* Link Styling */
+  a {
+    color: #003366;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #ffccdd; /* Soft baby pink for header */
+    color: #003366;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #fff0f5; /* Light pink for alternate rows */
+  }
+  
+  table tr:nth-child(odd) {
+    background-color: #ffe6eb; /* Slightly darker pink for contrast */
+  }
+  
+  /* Quote Styling */
+  blockquote {
+    font-style: italic;
+    color: #555;
+    padding: 10px;
+    border-left: 4px solid #003366;
+    margin: 15px 0;
+  }
+  
